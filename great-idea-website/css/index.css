@@ -96,6 +96,14 @@ nav a:last-child{
 	margin-right: 0;
 }
 
+/* .navbar {
+	position: sticky; 
+	top: 0;
+	overflow: hidden;
+	background-color: teal;
+  }
+   */
+
 .logo{
 	margin: 27px 0px 0px 92px;
 }
@@ -131,9 +139,9 @@ button{
 	background-color: white;
 	font-size: 16px;
 	border: 1px solid black;
-	margin-left: 150px;
+	margin-left: 152px;
 	display: block;
-	padding: 6px 47px;
+	padding: 6px 46px;
 	margin-bottom: 22px;
 }
 
@@ -151,8 +159,29 @@ section{
 .upper-row{
 	width:49%;
 	display: inline-block;
+	padding: 8px 0px 42px 0px;
+	line-height: 1.05;
 }
 
-h2{
-	margin-top: 
+.lower-row{
+	width: 33%;
+	display: inline-block;
+	padding: 36px 0px 18px 0px;
+	margin: 0 auto;
+	line-height: 1.1;
+}
+
+address{
+	margin-top: 38px;
+	margin-left: 1px;
+	line-height: 1.1;
+}
+
+footer address p{
+	margin: 18px auto;
+}
+.copyright{
+	text-align: center;
+	font-size: 14px;
+	margin: 54px auto;
 }
