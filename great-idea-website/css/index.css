@@ -64,3 +64,31 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	width: 874px;
+	margin: 0 auto;
+}
+
+header, footer, section{
+	width: 100%;
+}
+
+nav{
+	display: inline-block;
+	color: #BCBCBC'
+}
+
+p{
+	font-size: 16px;
+}
+
+section{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.upper-row{
+	width:49%;
+	display: inline-block;
+}
