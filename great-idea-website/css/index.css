@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
-	width: 874px;
+	width: 875px;
 	margin: 0 auto;
 }
 
@@ -76,7 +76,65 @@ header, footer, section{
 
 nav{
 	display: inline-block;
-	color: #BCBCBC'
+	margin: 0;
+	vertical-align: bottom;
+	padding-bottom: 12px;
+}
+
+nav a{
+	color: #BCBCBC;
+	text-decoration: none;
+	margin: 0 63px 0 0;
+	font-size: 14px;
+}
+
+nav a:first-child{
+	margin-left: 0;
+}
+
+nav a:last-child{
+	margin-right: 0;
+}
+
+.logo{
+	margin: 27px 0px 0px 92px;
+}
+
+.titleButton{
+	vertical-align: top;
+	width: 49%;
+	display: inline-block;
+	padding-bottom: 100px;
+	padding-top: 125px;
+
+}
+
+.imgdiv{
+	width: 49%;
+	display: inline-block;
+}
+
+.headerimage{
+	display: block;
+	padding: 68px 0px 40px 64px;
+}
+
+h1{
+	font-size: 75px;
+	text-align: center;
+	display: block;
+	padding-left: 40px;
+	padding-bottom: 4px;
+}
+
+button{
+	background-color: white;
+	font-size: 16px;
+	border: 1px solid black;
+	margin-left: 150px;
+	display: block;
+	padding: 6px 47px;
+	margin-bottom: 22px;
 }
 
 p{
@@ -84,6 +142,8 @@ p{
 }
 
 section{
+	padding-top: 30px;
+	padding-bottom: 30px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
@@ -91,4 +151,8 @@ section{
 .upper-row{
 	width:49%;
 	display: inline-block;
+}
+
+h2{
+	margin-top: 
 }
